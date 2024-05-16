@@ -1,6 +1,7 @@
 journeymap-1.20.1-5.9.21-forge.jar
 Jade-1.20.1-forge-11.9.2.jar
 Placebo-1.20.1-8.6.1.jar
+BetterCompatibilityChecker-neo-4.0.8+mc1.20.1.jar
 Clumps-forge-1.20.1-12.0.0.4.jar
 ftb-essentials-forge-2001.2.2.jar
 clientcrafting-1.20.1-1.8.jar
