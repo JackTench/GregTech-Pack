@@ -13,5 +13,8 @@
 .minecraft/usercache.json
 .minecraft/usernamecache.json
 
+.minecraft/journeymap/icon
+.minecraft/journeymap/journeymap.log
+
 instance.cfg
 mmc-pack.json
