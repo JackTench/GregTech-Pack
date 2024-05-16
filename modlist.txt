@@ -1,40 +1,41 @@
-AI Improvements 0.5.2
-Alternate Current 1.7.0
-AppleSkin 2.5.1
-Architectury 9.12.4
-Better Advancements 0.3.2
-betterfpsdist mod 1.20.1-4.4
-Canary 0.3.3
-Catalogue 1.8.0
-Chunky 1.3.146
-clientcrafting mod 1.20.1-1.8
-Cloth Config 11.1.118
-Clumps 12.0.0.4
-Configured 2.2.3
-Controlling 12.0.2
-Cupboard Utilities 1.20.1-2.6
-Dynamic FPS 3.4.3
-Dynamic view distance 2.3
-Embeddium 0.3.18
-Embeddium Extra 0.5.4.3
-Farsight 1.20.1-3.6
-FerriteCore 6.0.1
-FTB Backups 2 1.0.23 (DISABLED)
-FTB Chunks 2001.3.0
-FTB Essentials 2001.2.2
-FTB Library 2001.2.1
-FTB Quests 2001.4.2
-FTB Teams 2001.3.0
-FTB XMod Compat 2.1.1
-Get It Together, Drops! 1.3
-GPU Memory Leak Fix 1.20.1-1.8
-Jade 11.9.2
-Jade Addons 5.2.2
-Just Enough Items 15.3.0.4
-Mouse Tweaks 2.25.1
-Placebo 8.6.1
-PolyLib 2000.0.3
-RecipeEssentials 1.20.1-3.4
-Searchables 1.0.3
-Toast Control 8.0.3
-Yeetus Experimentus 2.3.1
+Jade-1.20.1-forge-11.9.2.jar
+Placebo-1.20.1-8.6.1.jar
+Clumps-forge-1.20.1-12.0.0.4.jar
+ftb-essentials-forge-2001.2.2.jar
+clientcrafting-1.20.1-1.8.jar
+.index
+canary-mc1.20.1-0.3.3.jar
+dynview-1.20.1-4.0.jar
+polylib-forge-2000.0.3-build.133.jar
+ToastControl-1.20.1-8.0.3.jar
+JadeAddons-1.20.1-forge-5.2.2.jar
+ftb-library-forge-2001.2.1.jar
+Chunky-1.3.146.jar
+configured-forge-1.20.1-2.2.3.jar
+ftb-quests-forge-2001.4.2.jar
+BetterAdvancements-1.20.1-0.3.2.162.jar
+recipeessentials-1.20.1-3.4.jar
+catalogue-forge-1.20.1-1.8.0.jar
+farsight-1.20.1-3.6.jar
+ftb-xmod-compat-forge-2.1.1.jar
+jei-1.20.1-forge-15.3.0.4.jar
+alternate_current-mc1.20-1.7.0.jar
+betterfpsdist-1.20.1-4.4.jar
+embeddium-0.3.18+mc1.20.1-all.jar
+MouseTweaks-forge-mc1.20.1-2.25.1.jar
+cloth-config-11.1.118-forge.jar
+cupboard-1.20.1-2.6.jar
+Controlling-forge-1.20.1-12.0.2.jar
+ftbbackups2-forge-1.20-1.0.23.jar.disabled
+ftb-teams-forge-2001.3.0.jar
+architectury-9.2.14-forge.jar
+dynamic-fps-3.4.3+minecraft-1.20.0-forge.jar
+Searchables-forge-1.20.1-1.0.3.jar
+gpumemleakfix-1.20.1-1.8.jar
+appleskin-forge-mc1.20.1-2.5.1.jar
+getittogetherdrops-forge-1.20-1.3.jar
+YeetusExperimentus-Forge-2.3.1-build.6+mc1.20.1.jar
+rubidium-extra-0.5.4.3+mc1.20.1-build.121.jar
+ftb-chunks-forge-2001.3.0.jar
+AI-Improvements-1.20-0.5.2.jar
+ferritecore-6.0.1-forge.jar
