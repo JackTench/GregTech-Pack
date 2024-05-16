@@ -1,11 +1,16 @@
 AI Improvements 0.5.2
 Alternate Current 1.7.0
+AppleSkin 2.5.1
+Better Advancements 0.3.2
 betterfpsdist mod 1.20.1-4.4
 Canary 0.3.3
+Catalogue 1.8.0
 Chunky 1.3.146
 clientcrafting mod 1.20.1-1.8
 Cloth Config 11.1.118
 Clumps 12.0.0.4
+Configured 2.2.3
+Controlling 12.0.2
 Cupboard Utilities 1.20.1-2.6
 Dynamic FPS 3.4.3
 Dynamic view distance 2.3
@@ -18,4 +23,9 @@ GPU Memory Leak Fix 1.20.1-1.8
 Jade 11.9.2
 Jade Addons 5.2.2
 Just Enough Items 15.3.0.4
+Mouse Tweaks 2.25.1
+Placebo 8.6.1
 RecipeEssentials 1.20.1-3.4
+Searchables 1.0.3
+Toast Control 8.0.3
+Yeetus Experimentus 2.3.1
