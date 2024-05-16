@@ -8,8 +8,10 @@
 .minecraft/server-resource-packs
 .minecraft/shaderpacks
 .minecraft/texturepacks
-.minecraft/options.txt
 .minecraft/icon.png
+.minecraft/options.txt
+.minecraft/usercache.json
+.minecraft/usernamecache.json
 
 instance.cfg
 mmc-pack.json
