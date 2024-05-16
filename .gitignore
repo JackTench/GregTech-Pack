@@ -13,6 +13,8 @@
 .minecraft/usercache.json
 .minecraft/usernamecache.json
 
+.minecraft/config/NoChatReports/README.md
+
 .minecraft/journeymap/data
 .minecraft/journeymap/icon
 .minecraft/journeymap/journeymap.log
