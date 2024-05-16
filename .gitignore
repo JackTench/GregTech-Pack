@@ -16,5 +16,9 @@
 .minecraft/journeymap/icon
 .minecraft/journeymap/journeymap.log
 
+.minecraft/rhino.local.properties
+
+.minecraft/kubejs/README.txt
+
 instance.cfg
 mmc-pack.json
