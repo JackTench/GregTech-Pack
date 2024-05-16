@@ -1,0 +1,10 @@
+.minecraft/coremods
+.minecraft/logs
+.minecraft/mods
+.minecraft/resourcepacks
+.minecraft/saves
+.minecraft/server-resource-packs
+.minecraft/options.txt
+
+instance.cfg
+mmc-pack.json
