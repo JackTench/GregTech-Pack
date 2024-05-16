@@ -5,6 +5,7 @@
 .minecraft/saves
 .minecraft/server-resource-packs
 .minecraft/options.txt
+.minecraft/icon.png
 
 instance.cfg
 mmc-pack.json
