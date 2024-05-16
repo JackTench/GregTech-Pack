@@ -13,8 +13,11 @@
 .minecraft/usercache.json
 .minecraft/usernamecache.json
 
+.minecraft/journeymap/data
 .minecraft/journeymap/icon
 .minecraft/journeymap/journeymap.log
+
+.minecraft/local/ftbchunks/data
 
 .minecraft/rhino.local.properties
 
