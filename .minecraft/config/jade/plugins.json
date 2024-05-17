@@ -59,6 +59,9 @@
     "electric_container_provider": true,
     "controllable_provider": true
   },
+  "supplementaries": {
+    "hat_stand": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
