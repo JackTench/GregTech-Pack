@@ -3,6 +3,7 @@ YungsBetterWitchHuts-1.20-Forge-3.0.3.jar
 journeymap-1.20.1-5.9.21-forge.jar
 rhino-forge-2001.2.2-build.18.jar
 ae2wtlib-15.2.3-forge.jar
+NaturesCompass-1.20.1-1.11.2-forge.jar
 Jade-1.20.1-forge-11.9.2.jar
 Placebo-1.20.1-8.6.1.jar
 CodeChickenLib-1.20.1-4.4.0.509-universal.jar
