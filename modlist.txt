@@ -42,6 +42,7 @@ curios-forge-5.9.0+1.20.1.jar
 betterfpsdist-1.20.1-4.4.jar
 embeddium-0.3.18+mc1.20.1-all.jar
 chat_heads-0.12.0-forge-1.20.jar
+PrettyPipes-1.15.0-all.jar
 MouseTweaks-forge-mc1.20.1-2.25.1.jar
 jmi-forge-1.20.1-0.14-47.jar
 cloth-config-11.1.118-forge.jar
