@@ -14,6 +14,7 @@ CodeChickenLib-1.20.1-4.4.0.509-universal.jar
 bwncr-forge-1.20.1-3.17.0.jar
 BetterCompatibilityChecker-neo-4.0.8+mc1.20.1.jar
 Clumps-forge-1.20.1-12.0.0.4.jar
+Bookshelf-Forge-1.20.1-20.1.10.jar
 ftb-essentials-forge-2001.2.2.jar
 clientcrafting-1.20.1-1.8.jar
 fruitsdelight-1.0.9.jar
@@ -97,7 +98,9 @@ appleskin-forge-mc1.20.1-2.5.1.jar
 getittogetherdrops-forge-1.20-1.3.jar
 YeetusExperimentus-Forge-2.3.1-build.6+mc1.20.1.jar
 auto_third_person-forge-1.20.1-2.1.jar
+BotanyPots-Forge-1.20.1-13.0.29.jar
 rubidium-extra-0.5.4.3+mc1.20.1-build.121.jar
+kubejsbotanypots-1.2.2.jar
 ftb-chunks-forge-2001.3.0.jar
 AI-Improvements-1.20-0.5.2.jar
 ferritecore-6.0.1-forge.jar
