@@ -129,3 +129,4 @@ kubejsbotanypots-1.2.2.jar
 ftb-chunks-forge-2001.3.0.jar
 AI-Improvements-1.20-0.5.2.jar
 ferritecore-6.0.1-forge.jar
+HostileNeuralNetworks-1.20.1-5.3.0.jar
