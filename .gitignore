@@ -13,9 +13,6 @@
 .minecraft/usercache.json
 .minecraft/usernamecache.json
 
-.minecraft/config/roughlyenoughitems/pinyin.properties
-.minecraft/config/roughlyenoughitems/pinyin_double.properties
-
 .minecraft/config/NoChatReports/README.md
 
 .minecraft/config/betterdeserttemples/README.txt
@@ -37,3 +34,5 @@
 
 instance.cfg
 mmc-pack.json
+.minecraft/config/roughlyenoughitems/pinyin_double.properties
+.minecraft/config/roughlyenoughitems/pinyin.properties
