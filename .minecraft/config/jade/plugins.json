@@ -59,6 +59,10 @@
     "electric_container_provider": true,
     "controllable_provider": true
   },
+  "delightful": {
+    "crop_progress": true,
+    "pie_icons": true
+  },
   "supplementaries": {
     "hat_stand": true
   },
