@@ -41,6 +41,7 @@ BetterAdvancements-1.20.1-0.3.2.162.jar
 rechiseled-1.1.6-forge-mc1.20.jar
 corn_delight-1.0.3-1.20.1.jar
 NoChatReports-FORGE-1.20.1-v2.2.2.jar
+elevatorid-1.20.1-lex-1.9.jar
 rechiseledae2-neoforge-1.20.1-1.0.0.jar
 recipeessentials-1.20.1-3.4.jar
 sophisticatedcore-1.20.1-0.6.22.611.jar
