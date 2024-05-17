@@ -7,13 +7,13 @@ configVersion = 7
 	boat = true
 	#Automatically go into third person when riding a minecart?
 	#Default: true
-	cart = true
+	cart = false
 	#Automatically go into third person when riding an animal?
 	#Default: true
 	animal = true
 	#Automatically go into third person when flying an elytra?
 	#Default: true
-	elytra = true
+	elytra = false
 	#Automatically go into third person when doing the swimming animation?
 	#Default: false
 	swim = false
