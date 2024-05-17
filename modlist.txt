@@ -1,3 +1,5 @@
+YungsBetterMineshafts-1.20-Forge-4.0.4.jar
+YungsBetterWitchHuts-1.20-Forge-3.0.3.jar
 journeymap-1.20.1-5.9.21-forge.jar
 rhino-forge-2001.2.2-build.18.jar
 ae2wtlib-15.2.3-forge.jar
@@ -12,12 +14,14 @@ clientcrafting-1.20.1-1.8.jar
 comforts-forge-6.3.5+1.20.1.jar
 AttributeFix-Forge-1.20.1-21.0.4.jar
 .index
+YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar
 canary-mc1.20.1-0.3.3.jar
 dynview-1.20.1-4.0.jar
 polylib-forge-2000.0.3-build.133.jar
 ToastControl-1.20.1-8.0.3.jar
 JadeAddons-1.20.1-forge-5.2.2.jar
 ftb-library-forge-2001.2.1.jar
+YungsBetterEndIsland-1.20-Forge-2.0.6.jar
 storagedrawers-1.20.1-12.0.3.jar
 EnderStorage-1.20.1-2.11.0.188-universal.jar
 Translocators-1.20.1-2.6.0.86-universal.jar
@@ -33,6 +37,7 @@ rechiseledae2-neoforge-1.20.1-1.0.0.jar
 recipeessentials-1.20.1-3.4.jar
 sophisticatedcore-1.20.1-0.6.22.611.jar
 toofast-1.20-0.4.3.5.jar
+YungsBetterStrongholds-1.20-Forge-4.0.3.jar
 catalogue-forge-1.20.1-1.8.0.jar
 kubejs-forge-2001.6.5-build.7.jar
 ulvcovm-0.1.1.jar
@@ -42,8 +47,11 @@ ftb-xmod-compat-forge-2.1.1.jar
 appliedenergistics2-forge-15.2.1.jar
 trashcans-1.0.18b-forge-mc1.20.jar
 jei-1.20.1-forge-15.3.0.4.jar
+YungsBetterDungeons-1.20-Forge-4.0.4.jar
 dummmmmmy-1.20-1.8.17b.jar
 alternate_current-mc1.20-1.7.0.jar
+YungsApi-1.20-Forge-4.0.5.jar
+YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar
 supermartijn642corelib-1.1.17-forge-mc1.20.1.jar
 curios-forge-5.9.0+1.20.1.jar
 betterfpsdist-1.20.1-4.4.jar
@@ -58,12 +66,14 @@ cupboard-1.20.1-2.6.jar
 Controlling-forge-1.20.1-12.0.2.jar
 ftbbackups2-forge-1.20-1.0.23.jar.disabled
 ironchest-1.20.1-14.4.4.jar
+YungsBetterJungleTemples-1.20-Forge-2.0.5.jar
 ironshulkerbox-1.20.1-5.3.2.jar
 ftb-teams-forge-2001.3.0.jar
 sophisticatedbackpacks-1.20.1-3.20.5.1044.jar
 architectury-9.2.14-forge.jar
 dynamic-fps-3.4.3+minecraft-1.20.0-forge.jar
 Searchables-forge-1.20.1-1.0.3.jar
+YungsBetterDesertTemples-1.20-Forge-3.0.3.jar
 fusion-1.1.1-forge-mc1.20.1.jar
 moonlight-1.20-2.11.20-forge.jar
 gpumemleakfix-1.20.1-1.8.jar

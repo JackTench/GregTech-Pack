@@ -15,6 +15,13 @@
 
 .minecraft/config/NoChatReports/README.md
 
+.minecraft/config/betterdeserttemples/README.txt
+.minecraft/config/betterdeserttemples/forge-1_20/README.txt
+.minecraft/config/betterfortresses/README.txt
+.minecraft/config/betterfortresses/forge-1_20/README.txt
+.minecraft/config/betterstrongholds/README.txt
+.minecraft/config/betterstrongholds/forge-1_20/README.txt
+
 .minecraft/journeymap/data
 .minecraft/journeymap/icon
 .minecraft/journeymap/journeymap.log
