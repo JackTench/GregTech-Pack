@@ -14,6 +14,7 @@ Placebo-1.20.1-8.6.1.jar
 DarkPaintings-Forge-1.20.1-17.0.4.jar
 CodeChickenLib-1.20.1-4.4.0.509-universal.jar
 bwncr-forge-1.20.1-3.17.0.jar
+jei-1.20.1-forge-15.3.0.4.jar.disabled
 BetterCompatibilityChecker-neo-4.0.8+mc1.20.1.jar
 Clumps-forge-1.20.1-12.0.0.4.jar
 Bookshelf-Forge-1.20.1-20.1.10.jar
@@ -31,6 +32,7 @@ YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar
 canary-mc1.20.1-0.3.3.jar
 dynview-1.20.1-4.0.jar
 polylib-forge-2000.0.3-build.133.jar
+RoughlyEnoughProfessions-forge-1.20.1-2.0.2.jar
 ToastControl-1.20.1-8.0.3.jar
 JadeAddons-1.20.1-forge-5.2.2.jar
 ftb-library-forge-2001.2.1.jar
@@ -56,6 +58,7 @@ toofast-1.20-0.4.3.5.jar
 caelus-forge-3.2.0+1.20.1.jar
 YungsBetterStrongholds-1.20-Forge-4.0.3.jar
 mcw-windows-2.2.1-mc1.20.1forge.jar
+KubeJSREIRuntime-1.0.jar
 catalogue-forge-1.20.1-1.8.0.jar
 mysterious_mountain_lib-1.4.5-1.20.1.jar
 kubejs-forge-2001.6.5-build.7.jar
@@ -69,7 +72,6 @@ elytraslot-forge-6.3.0+1.20.1.jar
 ftb-xmod-compat-forge-2.1.1.jar
 appliedenergistics2-forge-15.2.1.jar
 trashcans-1.0.18b-forge-mc1.20.jar
-jei-1.20.1-forge-15.3.0.4.jar
 YungsBetterDungeons-1.20-Forge-4.0.4.jar
 dummmmmmy-1.20-1.8.17b.jar
 alternate_current-mc1.20-1.7.0.jar
@@ -79,6 +81,7 @@ supermartijn642corelib-1.1.17-forge-mc1.20.1.jar
 PuzzlesLib-v8.1.19-1.20.1-Forge.jar
 curios-forge-5.9.0+1.20.1.jar
 HangGlider-v8.0.1-1.20.1-Forge.jar
+REIPluginCompatibilities-forge-12.0.93.jar
 betterfpsdist-1.20.1-4.4.jar
 embeddium-0.3.18+mc1.20.1-all.jar
 chat_heads-0.12.0-forge-1.20.jar
@@ -92,6 +95,7 @@ cupboard-1.20.1-2.6.jar
 Controlling-forge-1.20.1-12.0.2.jar
 ftbbackups2-forge-1.20-1.0.23.jar.disabled
 ironchest-1.20.1-14.4.4.jar
+RoughlyEnoughItems-12.1.725-forge.jar
 YungsBetterJungleTemples-1.20-Forge-2.0.5.jar
 mcw-furniture-3.2.2-mc1.20.1forge.jar
 ironshulkerbox-1.20.1-5.3.2.jar
