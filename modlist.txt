@@ -49,6 +49,7 @@ configured-forge-1.20.1-2.2.3.jar
 ftb-quests-forge-2001.4.2.jar
 supplementaries-1.20-2.8.11.jar
 BetterAdvancements-1.20.1-0.3.2.162.jar
+LibX-1.20.1-5.0.14.jar
 rechiseled-1.1.6-forge-mc1.20.jar
 corn_delight-1.0.3-1.20.1.jar
 NoChatReports-FORGE-1.20.1-v2.2.2.jar
@@ -93,6 +94,7 @@ PrettyPipes-1.15.0-all.jar
 MouseTweaks-forge-mc1.20.1-2.25.1.jar
 jmi-forge-1.20.1-0.14-47.jar
 mcw-paths-1.0.5-1.20.1forge.jar
+TravelAnchors-1.20.1-5.0.1.jar
 supermartijn642configlib-1.1.8-forge-mc1.20.jar
 cloth-config-11.1.118-forge.jar
 cupboard-1.20.1-2.6.jar
