@@ -1,7 +1,6 @@
 journeymap-1.20.1-5.9.21-forge.jar
 rhino-forge-2001.2.2-build.18.jar
 ae2wtlib-15.2.3-forge.jar
-bucketlib-1.20.1-2.3.4.0.jar
 Jade-1.20.1-forge-11.9.2.jar
 Placebo-1.20.1-8.6.1.jar
 CodeChickenLib-1.20.1-4.4.0.509-universal.jar
@@ -49,7 +48,6 @@ betterfpsdist-1.20.1-4.4.jar
 embeddium-0.3.18+mc1.20.1-all.jar
 chat_heads-0.12.0-forge-1.20.jar
 PrettyPipes-1.15.0-all.jar
-woodenbucket-1.20.1-2.1.0.0.jar
 MouseTweaks-forge-mc1.20.1-2.25.1.jar
 jmi-forge-1.20.1-0.14-47.jar
 supermartijn642configlib-1.1.8-forge-mc1.20.jar
