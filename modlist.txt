@@ -71,6 +71,7 @@ mininggadgets-1.15.6.jar
 sophisticatedcore-1.20.1-0.6.22.611.jar
 toofast-1.20-0.4.3.5.jar
 caelus-forge-3.2.0+1.20.1.jar
+Shrink-1.20.1-1.4.5.jar
 betterp2p-1.4.0-forge.jar
 YungsBetterStrongholds-1.20-Forge-4.0.3.jar
 mcw-windows-2.2.1-mc1.20.1forge.jar
