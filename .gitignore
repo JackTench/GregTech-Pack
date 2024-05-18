@@ -1,9 +1,12 @@
 .minecraft/.cache
 .minecraft/coremods
+.minecraft/crash-reports
+.minecraft/ldlib
 .minecraft/logs
 .minecraft/mods
 .minecraft/resourcepacks
 .minecraft/saves
+.minecraft/schematics
 .minecraft/screenshots
 .minecraft/server-resource-packs
 .minecraft/shaderpacks
