@@ -88,6 +88,9 @@
     "goggles.detailed": false,
     "placard": true
   },
+  "waystones": {
+    "waystone": true
+  },
   "ae2": {
     "part_icon": true,
     "charger": true,
