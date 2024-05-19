@@ -9,21 +9,24 @@
 	quests: [
 		{
 			id: "7F80BB175A957871"
-			rewards: [{
-				id: "7ECE22A42AC2EB89"
-				item: "minecraft:chest"
-				type: "item"
-			}]
 			shape: "square"
 			tasks: [{
 				id: "2579608416E487DA"
 				type: "checkmark"
 			}]
+			title: "Getting Started"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["7F80BB175A957871"]
 			id: "7096641347283FBD"
+			rewards: [{
+				count: 4
+				id: "20BB2B6D3066322A"
+				item: "minecraft:torch"
+				type: "item"
+			}]
 			tasks: [{
 				id: "019EF5D4C2816900"
 				item: {
@@ -47,6 +50,12 @@
 		{
 			dependencies: ["7F80BB175A957871"]
 			id: "32C4EFFE2FEB698B"
+			rewards: [{
+				count: 4
+				id: "5E8772F03DDDDF09"
+				item: "minecraft:torch"
+				type: "item"
+			}]
 			tasks: [{
 				id: "22A077A24F627B44"
 				item: {
@@ -68,6 +77,107 @@
 			}]
 			x: -1.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["7F80BB175A957871"]
+			id: "0A0A06076C46E2CE"
+			rewards: [{
+				count: 4
+				id: "05A39176295FB968"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F5EAB6F8856521A"
+				item: {
+					Count: 1b
+					id: "gtceu:iron_screwdriver"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							MaxDamage: 255
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7F80BB175A957871"]
+			id: "2B7857444B8F32AC"
+			rewards: [{
+				count: 4
+				id: "4B8528806592B5E1"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			tasks: [{
+				id: "79D94D60828AD102"
+				item: {
+					Count: 1b
+					id: "gtceu:iron_saw"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							HarvestIce: 1b
+						}
+						GT.Tool: {
+							Damage: 0
+							MaxDamage: 255
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7F80BB175A957871"]
+			id: "29F771A45A9B2066"
+			rewards: [{
+				count: 4
+				id: "7BBB3B56D58529C8"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F2B9AD8C1B61B1B"
+				item: {
+					Count: 1b
+					id: "gtceu:iron_wrench"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 2
+							MaxDamage: 255
+							ToolSpeed: 6.0f
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "3087AE6AE17B3B47"
+			tasks: [{
+				id: "30982D35E8FD3BB6"
+				item: "ironfurnaces:copper_furnace"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
 		}
 	]
 	title: "Getting Started"
