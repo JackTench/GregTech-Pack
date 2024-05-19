@@ -170,14 +170,50 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["7F80BB175A957871"]
 			id: "3087AE6AE17B3B47"
 			tasks: [{
 				id: "30982D35E8FD3BB6"
 				item: "ironfurnaces:copper_furnace"
 				type: "item"
 			}]
+			title: "Tier 2 Furnace"
 			x: 1.5d
-			y: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3087AE6AE17B3B47"]
+			id: "332F0918AD602E50"
+			tasks: [{
+				id: "2D6C3D0C090574E9"
+				item: "ironfurnaces:iron_furnace"
+				type: "item"
+			}]
+			title: "Tier 3 Furnace"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7F80BB175A957871"]
+			id: "530BB3737DA60468"
+			tasks: [{
+				id: "32CDAA7BBBF19BE6"
+				item: "ironchest:copper_chest"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["530BB3737DA60468"]
+			id: "5D86DF4263A530A9"
+			tasks: [{
+				id: "23FAAE9C85BD3705"
+				item: "ironchest:iron_chest"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
 		}
 	]
 	title: "Getting Started"
