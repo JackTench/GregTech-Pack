@@ -373,6 +373,7 @@
 		{
 			dependencies: ["42889C77610C2BF2"]
 			description: ["If you really want... you can make the jumbo furnace by building a 3x3x3 cube of furnaces."]
+			icon: "jumbofurnace:jumbo_furnace"
 			id: "5CDD04C8BBBDCDDA"
 			optional: true
 			rewards: [{

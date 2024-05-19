@@ -243,8 +243,10 @@
 		}
 		{
 			dependencies: ["18922E6BBCA8EF25"]
+			description: ["The coke oven is used to create Charcoal and Coal Coke, more efficient fuels."]
 			icon: "gtceu:coke_oven"
 			id: "67A20312A0F86C52"
+			subtitle: "Making Better Fuels"
 			tasks: [
 				{
 					id: "2E8C76AC5F69DBE4"
@@ -252,16 +254,24 @@
 					type: "item"
 				}
 				{
-					count: 25L
+					count: 24L
 					id: "4714D8BCF62B3B25"
 					item: "gtceu:coke_oven_bricks"
 					type: "item"
 				}
+				{
+					id: "49863F6DC88DD5D6"
+					item: "gtceu:coke_oven_hatch"
+					type: "item"
+				}
 			]
+			title: "Coke Oven"
 			x: 0.0d
 			y: 2.5d
 		}
 		{
+			dependencies: ["7F80BB175A957871"]
+			hide_dependency_lines: true
 			id: "7BD528331C05ED34"
 			tasks: [{
 				id: "5E2A17A66140E398"
@@ -278,6 +288,8 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["7F80BB175A957871"]
+			hide_dependency_lines: true
 			id: "438245D56F1AAF93"
 			tasks: [{
 				id: "10491267DB56C903"
@@ -286,6 +298,58 @@
 			}]
 			x: -2.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["67A20312A0F86C52"]
+			description: ["Creosote is a byproduct generated from the Coke Oven."]
+			id: "35DFE38F223E0185"
+			rewards: [
+				{
+					id: "0C9864C8AE465F80"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "28193246473BD054"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "01E02E35905F212D"
+				item: "gtceu:creosote_bucket"
+				type: "item"
+			}]
+			title: "Creosote"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["35DFE38F223E0185"]
+			description: ["You may want to prioritise building a tank to store your creosote, and perhaps another tank to store water."]
+			id: "27D0076248CC5819"
+			tasks: [
+				{
+					id: "7876440E95E14388"
+					item: "gtceu:wooden_multiblock_tank"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "70DC6B762EC8F576"
+					item: { Count: 2b, id: "gtceu:wooden_tank_valve" }
+					type: "item"
+				}
+				{
+					count: 23L
+					id: "480EFD698B273A6C"
+					item: { Count: 23b, id: "gtceu:wood_wall" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.5d
 		}
 	]
 	title: "Getting Started"
