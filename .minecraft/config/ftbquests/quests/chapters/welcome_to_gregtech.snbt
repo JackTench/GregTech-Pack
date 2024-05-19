@@ -51,6 +51,21 @@
 				"636698901640CD4A"
 				"4224B45B1E6AA920"
 			]
+			icon: {
+				Count: 1b
+				id: "gtceu:flint_pickaxe"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						HarvestLevel: 2
+						MaxDamage: 63
+						ToolSpeed: 5.5f
+					}
+					HideFlags: 2
+				}
+			}
 			id: "1EAC2A05DED7EB4D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -323,6 +338,32 @@
 			}]
 			x: 0.0d
 			y: 4.5d
+		}
+		{
+			dependencies: ["2ABABA220808FE11"]
+			description: ["Currently, beds are a little expensive. Until then, you can sleep using a sleeping bag."]
+			icon: "comforts:sleeping_bag_white"
+			id: "2889C0C9DAA73A6F"
+			rewards: [{
+				id: "4304B3BF248F6500"
+				item: "farmersdelight:hamburger"
+				type: "item"
+			}]
+			tasks: [{
+				id: "363D35C1DA53E16D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "comforts:sleeping_bags"
+					}
+				}
+				title: "Sleeping Bag"
+				type: "item"
+			}]
+			title: "Sleeping The First Night"
+			x: 1.5d
+			y: 0.0d
 		}
 	]
 	title: "Welcome to GregTech"
