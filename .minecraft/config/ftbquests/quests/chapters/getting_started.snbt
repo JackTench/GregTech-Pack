@@ -6,6 +6,135 @@
 	id: "5F4DF5D9219D44A5"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["63646192544A6EB3"]
+			description: ["Flint is a very important resource in the early-game. It is used for the crafting table or furnace and other early-game tools."]
+			id: "7A0F5C648A2B62C7"
+			tasks: [{
+				count: 32L
+				id: "76095C250842F0B5"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			title: "Flint"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A0F5C648A2B62C7"]
+			id: "277C29EA87C2D857"
+			tasks: [{
+				id: "10D8AFAFEDD216C0"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A0F5C648A2B62C7"]
+			id: "21EC53DC136F54E0"
+			tasks: [{
+				id: "12C9B44811F532F0"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7A0F5C648A2B62C7"]
+			id: "5056B2B440141EDD"
+			tasks: [
+				{
+					id: "6D385F4D83ECAE5B"
+					item: {
+						Count: 1b
+						id: "gtceu:flint_pickaxe"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 63
+								ToolSpeed: 5.5f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46092359EBDDCFC8"
+					item: {
+						Count: 1b
+						id: "gtceu:flint_shovel"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 63
+								ToolSpeed: 5.5f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D1DB0BBCEA7161F"
+					item: {
+						Count: 1b
+						id: "gtceu:flint_axe"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								DisableShields: 1b
+								TreeFelling: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 63
+								ToolSpeed: 3.5f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19668458E14E7FB0"
+					item: {
+						Count: 1b
+						id: "gtceu:flint_sword"
+						tag: {
+							DisallowContainerItem: 0b
+							Enchantments: [{
+								id: "minecraft:fire_aspect"
+								lvl: 2s
+							}]
+							GT.Behaviours: { }
+							GT.Tool: {
+								AttackDamage: 4.0f
+								AttackSpeed: -2.4f
+								Damage: 0
+								MaxDamage: 63
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Basic Tools"
+			x: -1.0d
+			y: 0.0d
+		}
+	]
 	title: "Getting Started"
 }
