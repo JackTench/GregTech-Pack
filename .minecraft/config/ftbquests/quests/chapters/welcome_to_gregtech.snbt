@@ -42,7 +42,216 @@
 			}]
 			title: "A Useful Resource"
 			x: 1.0d
-			y: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4224B45B1E6AA920"]
+			id: "1EAC2A05DED7EB4D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48C5594F713DC14C"
+				table_id: 4197640111025525622L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					id: "5927562DF1AADEAE"
+					item: {
+						Count: 1b
+						id: "gtceu:flint_sword"
+						tag: {
+							DisallowContainerItem: 0b
+							Enchantments: [{
+								id: "minecraft:fire_aspect"
+								lvl: 2s
+							}]
+							GT.Behaviours: { }
+							GT.Tool: {
+								AttackDamage: 4.0f
+								AttackSpeed: -2.4f
+								Damage: 0
+								MaxDamage: 63
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7EE6CDA466FAD862"
+					item: {
+						Count: 1b
+						id: "gtceu:flint_pickaxe"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 63
+								ToolSpeed: 5.5f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74D20C2BE0AD7FFA"
+					item: {
+						Count: 1b
+						id: "gtceu:flint_shovel"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 63
+								ToolSpeed: 5.5f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C1C7DA3FA8F05E6"
+					item: {
+						Count: 1b
+						id: "gtceu:flint_axe"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								DisableShields: 1b
+								TreeFelling: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 63
+								ToolSpeed: 3.5f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Basic Tools"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4224B45B1E6AA920"]
+			id: "636698901640CD4A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F8059BB37B49675"
+				table_id: 4197640111025525622L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					id: "6B78497614A4CEF2"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+				{
+					id: "274BC9B78A999A44"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+			]
+			title: "Crafting and Smelting"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["636698901640CD4A"]
+			id: "32B7DE42421A9B4D"
+			tasks: [{
+				count: 32L
+				id: "0A39C55C757D4318"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["636698901640CD4A"]
+			id: "0D03EB4A9983351C"
+			tasks: [{
+				count: 32L
+				id: "765DAEFC46249E0C"
+				item: { Count: 32b, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["636698901640CD4A"]
+			id: "36F99FCFFC3A66D4"
+			tasks: [{
+				count: 32L
+				id: "4062499A849AB515"
+				item: { Count: 32b, id: "gtceu:tin_ingot" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2ABABA220808FE11"]
+			id: "1830B23B6507B75D"
+			rewards: [{
+				id: "67D00C565626C074"
+				item: "solcarrot:food_book"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BE1EF06B6BA3266"
+				title: "Food"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2ABABA220808FE11"]
+			id: "1C8C9B05A42BD67A"
+			rewards: [
+				{
+					id: "222982428DB04FCC"
+					item: "ars_nouveau:worn_notebook"
+					type: "item"
+				}
+				{
+					id: "626154267197AA49"
+					item: "gtceu:terminal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "32C47A408A9081CA"
+				title: "Documentation"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2ABABA220808FE11"]
+			id: "1391404D03C059FF"
+			tasks: [{
+				id: "6570388607824AF8"
+				title: "Tips"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.0d
 		}
 	]
 	title: "Welcome to GregTech"
