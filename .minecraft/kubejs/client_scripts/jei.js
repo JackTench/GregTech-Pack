@@ -9,6 +9,12 @@ JEIEvents.hideItems(event => {
 
     // Follows format of disable.js
 
+    event.hide('minecraft:iron_pickaxe');
+    event.hide('minecraft:iron_shovel');
+    event.hide('minecraft:iron_axe');
+    event.hide('minecraft:iron_hoe');
+    event.hide('minecraft:iron_sword');
+
     event.hide('twilightforest:uncrafting_table');
 
     event.hide('ironfurnaces:diamond_furnace');

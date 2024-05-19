@@ -7,6 +7,38 @@ ServerEvents.recipes(event => {
 
     console.log('disable.js loaded!');
 
+    // Disable vanilla tools, replace them in crafting with GregTech tools.
+    event.remove({output: 'minecraft:iron_pickaxe'});
+    event.replaceInput(
+        {},
+        'minecraft:iron_pickaxe',
+        'gtceu:iron_pickaxe'
+    );
+    event.remove({output: 'minecraft:iron_shovel'});
+    event.replaceInput(
+        {},
+        'minecraft:iron_shovel',
+        'gtceu:iron_shovel'
+    );
+    event.remove({output: 'minecraft:iron_axe'});
+    event.replaceInput(
+        {},
+        'minecraft:iron_axe',
+        'gtceu:iron_axe'
+    );
+    event.remove({output: 'minecraft:iron_hoe'});
+    event.replaceInput(
+        {},
+        'minecraft:iron_hoe',
+        'gtceu:iron_hoe'
+    );
+    event.remove({output: 'minecraft:iron_sword'});
+    event.replaceInput(
+        {},
+        'minecraft:iron_sword',
+        'gtceu:iron_sword'
+    );
+
     // Disable Uncrafting Table from Twilight Forest.
     event.remove({output: 'twilightforest:uncrafting_table'});
 
