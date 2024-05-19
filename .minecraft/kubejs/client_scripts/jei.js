@@ -46,6 +46,25 @@ JEIEvents.hideItems(event => {
     event.hide('ironfurnaces:million_furnace');
     event.hide('ironfurnaces:rainbow_coal');
 
+    event.hide('ironchest:dirt_chest');
+    event.hide('ironchest:trapped_dirt_chest');
+
+    event.hide('ironchest:iron_to_gold_chest_upgrade');
+    event.hide('ironchest:gold_to_diamond_chest_upgrade');
+    event.hide('ironchest:copper_to_iron_chest_upgrade');
+    event.hide('ironchest:diamond_to_crystal_chest_upgrade');
+    event.hide('ironchest:wood_to_iron_chest_upgrade');
+    event.hide('ironchest:wood_to_copper_chest_upgrade');
+    event.hide('ironchest:diamond_to_obsidian_chest_upgrade');
+
+    event.hide('ironshulkerbox:iron_to_gold_shulker_box_upgrade');
+    event.hide('ironshulkerbox:gold_to_diamond_shulker_box_upgrade');
+    event.hide('ironshulkerbox:copper_to_iron_shulker_box_upgrade');
+    event.hide('ironshulkerbox:diamond_to_crystal_shulker_box_upgrade');
+    event.hide('ironshulkerbox:vanilla_to_iron_shulker_box_upgrade');
+    event.hide('ironshulkerbox:vanilla_to_copper_shulker_box_upgrade');
+    event.hide('ironshulkerbox:diamond_to_obsidian_shulker_box_upgrade');
+
 })
 
 // Hide crafting categories from JEI.
