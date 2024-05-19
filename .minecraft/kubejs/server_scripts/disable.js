@@ -100,4 +100,7 @@ ServerEvents.recipes(event => {
     event.remove({output: 'ironshulkerbox:vanilla_to_copper_shulker_box_upgrade'});
     event.remove({output: 'ironshulkerbox:diamond_to_obsidian_shulker_box_upgrade'});
 
+    // Disable reinforced hang glider.
+    event.remove({output: 'hangglider:reinforced_hang_glider'});
+
 })

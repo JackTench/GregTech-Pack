@@ -261,6 +261,32 @@
 			x: 0.0d
 			y: 2.5d
 		}
+		{
+			id: "7BD528331C05ED34"
+			tasks: [{
+				id: "5E2A17A66140E398"
+				item: {
+					Count: 1b
+					id: "hangglider:hang_glider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "438245D56F1AAF93"
+			tasks: [{
+				id: "10491267DB56C903"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
 	]
 	title: "Getting Started"
 }

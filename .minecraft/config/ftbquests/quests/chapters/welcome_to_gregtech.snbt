@@ -47,10 +47,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"636698901640CD4A"
-				"4224B45B1E6AA920"
-			]
+			dependencies: ["636698901640CD4A"]
 			icon: {
 				Count: 1b
 				id: "gtceu:flint_pickaxe"
@@ -160,7 +157,7 @@
 				}
 			]
 			title: "Basic Tools"
-			x: 1.5d
+			x: 1.0d
 			y: 2.0d
 		}
 		{
@@ -349,21 +346,51 @@
 				item: "farmersdelight:hamburger"
 				type: "item"
 			}]
-			tasks: [{
-				id: "363D35C1DA53E16D"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "comforts:sleeping_bags"
+			tasks: [
+				{
+					id: "363D35C1DA53E16D"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "comforts:sleeping_bags"
+						}
 					}
+					title: "Sleeping Bag"
+					type: "item"
 				}
-				title: "Sleeping Bag"
-				type: "item"
-			}]
+				{
+					advancement: "minecraft:adventure/sleep_in_bed"
+					criterion: ""
+					id: "4F73969F0AEB94D2"
+					type: "advancement"
+				}
+			]
 			title: "Sleeping The First Night"
 			x: 1.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["42889C77610C2BF2"]
+			description: ["If you really want... you can make the jumbo furnace by building a 3x3x3 cube of furnaces."]
+			id: "5CDD04C8BBBDCDDA"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "7F520EB5D910EECD"
+				item: "gtceu:coke_gem"
+				type: "item"
+			}]
+			subtitle: "It's... big."
+			tasks: [{
+				count: 27L
+				id: "03F738BAB57BEE0D"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "Jumbo Furnace"
+			x: -1.0d
+			y: 3.0d
 		}
 	]
 	title: "Welcome to GregTech"

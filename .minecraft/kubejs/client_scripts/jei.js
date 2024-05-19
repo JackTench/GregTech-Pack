@@ -71,6 +71,8 @@ JEIEvents.hideItems(event => {
     event.hide('ironshulkerbox:vanilla_to_copper_shulker_box_upgrade');
     event.hide('ironshulkerbox:diamond_to_obsidian_shulker_box_upgrade');
 
+    event.hide('hangglider:reinforced_hang_glider');
+
 })
 
 // Hide crafting categories from JEI.
