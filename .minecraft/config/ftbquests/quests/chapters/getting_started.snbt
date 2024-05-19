@@ -33,7 +33,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["7A0F5C648A2B62C7"]
+			dependencies: [
+				"7A0F5C648A2B62C7"
+				"5056B2B440141EDD"
+			]
 			id: "21EC53DC136F54E0"
 			tasks: [{
 				id: "12C9B44811F532F0"
@@ -41,7 +44,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7A0F5C648A2B62C7"]
@@ -132,6 +135,17 @@
 				}
 			]
 			title: "Basic Tools"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7A0F5C648A2B62C7"]
+			id: "39B94A93033812C7"
+			tasks: [{
+				id: "1F2C4534B65A7EB3"
+				item: "minecraft:chest"
+				type: "item"
+			}]
 			x: -1.0d
 			y: 0.0d
 		}
