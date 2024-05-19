@@ -1,0 +1,26 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome_to_gregtech"
+	group: ""
+	id: "63646192544A6EB3"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: ["This quest book will serve as your guide to GregTech."]
+		id: "2ABABA220808FE11"
+		rewards: [{
+			id: "2C14D730908B2C8C"
+			item: "ftbquests:book"
+			type: "item"
+		}]
+		tasks: [{
+			id: "1C4BB092A8EB3E97"
+			title: "Welcome to GregTech"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Welcome to GregTech"
+}
