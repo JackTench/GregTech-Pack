@@ -274,8 +274,8 @@
 				type: "item"
 			}]
 			title: "Smelting"
-			x: 0.5d
-			y: 3.5d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			description: ["Ores work a little differently in GregTech. It's loosely based on how they work in real life. No longer is there 1 ore per resource, for example, copper can come from Malachite, Chalcopyrite, and a host of other ores."]
@@ -287,14 +287,20 @@
 				title: "Ores"
 				type: "checkmark"
 			}]
-			x: 1.5d
-			y: 3.5d
+			x: 1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["42889C77610C2BF2"]
 			dependency_requirement: "one_completed"
 			description: ["Go mining for some iron. Search JEI for \"Iron Ingot\" to find out which ores will drop iron. Smelt your ores and use the ingot to create an Iron Hammer."]
 			id: "2B504FFB73B2BD89"
+			rewards: [{
+				id: "214BC2CED6B60074"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			shape: "square"
 			subtitle: "Your first GregTech tool!"
 			tasks: [{
 				id: "6342E5C9EAB20299"
@@ -315,104 +321,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["2B504FFB73B2BD89"]
-			id: "562B46855E9367D2"
-			tasks: [{
-				id: "50B9EF89CB49B777"
-				item: {
-					Count: 1b
-					id: "gtceu:iron_file"
-					tag: {
-						DisallowContainerItem: 0b
-						GT.Behaviours: { }
-						GT.Tool: {
-							Damage: 0
-							MaxDamage: 255
-						}
-						HideFlags: 2
-					}
-				}
-				type: "item"
-			}]
-			x: 2.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["2B504FFB73B2BD89"]
-			id: "152EBCDE9BC295AF"
-			tasks: [{
-				id: "1A00EBAE65234B16"
-				item: {
-					Count: 1b
-					id: "gtceu:iron_saw"
-					tag: {
-						DisallowContainerItem: 0b
-						GT.Behaviours: {
-							HarvestIce: 1b
-						}
-						GT.Tool: {
-							Damage: 0
-							MaxDamage: 255
-						}
-						HideFlags: 2
-					}
-				}
-				type: "item"
-			}]
-			x: -1.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["2B504FFB73B2BD89"]
-			id: "073945023C56A491"
-			tasks: [{
-				id: "69D8A466F1B8C366"
-				item: {
-					Count: 1b
-					id: "gtceu:iron_screwdriver"
-					tag: {
-						DisallowContainerItem: 0b
-						GT.Behaviours: { }
-						GT.Tool: {
-							Damage: 0
-							MaxDamage: 255
-						}
-						HideFlags: 2
-					}
-				}
-				type: "item"
-			}]
-			x: -0.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["2B504FFB73B2BD89"]
-			id: "54DFE65B1B1CB2AC"
-			tasks: [{
-				id: "15AF3EBA90EB1183"
-				item: {
-					Count: 1b
-					id: "gtceu:iron_wrench"
-					tag: {
-						DisallowContainerItem: 0b
-						GT.Behaviours: { }
-						GT.Tool: {
-							Damage: 0
-							HarvestLevel: 2
-							MaxDamage: 255
-							ToolSpeed: 6.0f
-						}
-						HideFlags: 2
-					}
-				}
-				type: "item"
-			}]
-			x: 1.5d
-			y: 6.0d
+			x: 0.0d
+			y: 4.5d
 		}
 	]
 	title: "Welcome to GregTech"

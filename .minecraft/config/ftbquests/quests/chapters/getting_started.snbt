@@ -6,6 +6,69 @@
 	id: "1443FAECE87CDBB6"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "7F80BB175A957871"
+			rewards: [{
+				id: "7ECE22A42AC2EB89"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2579608416E487DA"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7096641347283FBD"
+			tasks: [{
+				id: "019EF5D4C2816900"
+				item: {
+					Count: 1b
+					id: "gtceu:iron_file"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							MaxDamage: 255
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F80BB175A957871"]
+			id: "32C4EFFE2FEB698B"
+			tasks: [{
+				id: "22A077A24F627B44"
+				item: {
+					Count: 1b
+					id: "gtceu:iron_saw"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							HarvestIce: 1b
+						}
+						GT.Tool: {
+							Damage: 0
+							MaxDamage: 255
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+	]
 	title: "Getting Started"
 }
