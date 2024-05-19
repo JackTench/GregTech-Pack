@@ -6,21 +6,44 @@
 	id: "63646192544A6EB3"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		description: ["This quest book will serve as your guide to GregTech."]
-		id: "2ABABA220808FE11"
-		rewards: [{
-			id: "2C14D730908B2C8C"
-			item: "ftbquests:book"
-			type: "item"
-		}]
-		tasks: [{
-			id: "1C4BB092A8EB3E97"
-			title: "Welcome to GregTech"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			description: ["This quest book will serve as your guide to GregTech."]
+			id: "2ABABA220808FE11"
+			rewards: [{
+				id: "2C14D730908B2C8C"
+				item: "ftbquests:book"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C4BB092A8EB3E97"
+				title: "Welcome to GregTech"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2ABABA220808FE11"]
+			description: ["Flint is one of the most used resources in the early-game. Flint can also be obtained by crafting 3 gravel together, however, this is wildly inefficient."]
+			id: "4224B45B1E6AA920"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "711E9385974B8B2C"
+				table_id: 4197640111025525622L
+				type: "choice"
+			}]
+			subtitle: "Collect 32 flint."
+			tasks: [{
+				count: 32L
+				id: "1F15B68B2370203C"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			title: "A Useful Resource"
+			x: 1.0d
+			y: 0.0d
+		}
+	]
 	title: "Welcome to GregTech"
 }
