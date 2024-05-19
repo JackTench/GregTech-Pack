@@ -53,5 +53,7 @@ JEIEvents.hideItems(event => {
 JEIEvents.removeCategories(event => {
 
     event.remove('twilightforest:uncrafting');
+    event.remove('jumbofurnace:jumbo_furnace_upgrade');
+    event.remove('jumbofurnace:jumbo_smelting');
 
 })
