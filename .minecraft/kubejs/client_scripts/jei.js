@@ -73,6 +73,49 @@ JEIEvents.hideItems(event => {
 
     event.hide('hangglider:reinforced_hang_glider');
 
+    event.hide('create:raw_zinc');
+    event.hide('create:zinc_ingot');
+    event.hide('create:brass_ingot');
+    event.hide('create:copper_nugget');
+    event.hide('create:zinc_nugget');
+    event.hide('create:brass_nugget');
+    event.hide('create:copper_sheet');
+    event.hide('create:brass_sheet');
+    event.hide('create:iron_sheet');
+    event.hide('create:golden_sheet');
+    event.hide('create:crushed_raw_iron');
+    event.hide('create:crushed_raw_gold');
+    event.hide('create:crushed_raw_copper');
+    event.hide('create:crushed_raw_zinc');
+    event.hide('create:crushed_raw_platinum');
+    event.hide('create:crushed_raw_silver');
+    event.hide('create:crushed_raw_tin');
+    event.hide('create:crushed_raw_lead');
+    event.hide('create:crushed_raw_nickel');
+    event.hide('createaddition:electrum_ingot');
+    event.hide('createaddition:electrum_nugget');
+    event.hide('createaddition:electrum_sheet');
+    event.hide('createaddition:zinc_sheet');
+    event.hide('createaddition:copper_wire');
+    event.hide('createaddition:iron_wire');
+    event.hide('createaddition:gold_wire');
+    event.hide('createaddition:electrum_wire');
+    event.hide('createaddition:spool');
+    event.hide('createaddition:copper_spool');
+    event.hide('createaddition:gold_spool');
+    event.hide('createaddition:electrum_spool');
+    event.hide('createaddition:festive_spool');
+    event.hide('createaddition:copper_rod');
+    event.hide('createaddition:iron_rod');
+    event.hide('createaddition:gold_rod');
+    event.hide('createaddition:electrum_rod');
+    event.hide('createaddition:brass_rod');
+    event.hide('createaddition:straw');
+    event.hide('createaddition:seed_oil_bucket');
+    event.hide('createaddition:bioethanol_bucket');
+    event.hide('createaddition:seed_oil');
+    event.hide('createaddition:bioethanol');
+
 })
 
 // Hide crafting categories from JEI.
