@@ -103,4 +103,48 @@ ServerEvents.recipes(event => {
     // Disable reinforced hang glider.
     event.remove({output: 'hangglider:reinforced_hang_glider'});
 
+    // Disable create stuff for unification.
+    event.remove({output: 'create:raw_zinc'});
+    event.remove({output: 'create:zinc_ingot'});
+    event.remove({output: 'create:brass_ingot'});
+    event.remove({output: 'create:copper_nugget'});
+    event.remove({output: 'create:zinc_nugget'});
+    event.remove({output: 'create:brass_nugget'});
+    event.remove({output: 'create:copper_sheet'});
+    event.remove({output: 'create:brass_sheet'});
+    event.remove({output: 'create:iron_sheet'});
+    event.remove({output: 'create:golden_sheet'});
+    event.remove({output: 'create:crushed_raw_iron'});
+    event.remove({output: 'create:crushed_raw_gold'});
+    event.remove({output: 'create:crushed_raw_copper'});
+    event.remove({output: 'create:crushed_raw_zinc'});
+    event.remove({output: 'create:crushed_raw_platinum'});
+    event.remove({output: 'create:crushed_raw_silver'});
+    event.remove({output: 'create:crushed_raw_tin'});
+    event.remove({output: 'create:crushed_raw_lead'});
+    event.remove({output: 'create:crushed_raw_nickel'});
+    event.remove({output: 'createaddition:electrum_ingot'});
+    event.remove({output: 'createaddition:electrum_nugget'});
+    event.remove({output: 'createaddition:electrum_sheet'});
+    event.remove({output: 'createaddition:zinc_sheet'});
+    event.remove({output: 'createaddition:copper_wire'});
+    event.remove({output: 'createaddition:iron_wire'});
+    event.remove({output: 'createaddition:gold_wire'});
+    event.remove({output: 'createaddition:electrum_wire'});
+    event.remove({output: 'createaddition:spool'});
+    event.remove({output: 'createaddition:copper_spool'});
+    event.remove({output: 'createaddition:gold_spool'});
+    event.remove({output: 'createaddition:electrum_spool'});
+    event.remove({output: 'createaddition:festive_spool'});
+    event.remove({output: 'createaddition:copper_rod'});
+    event.remove({output: 'createaddition:iron_rod'});
+    event.remove({output: 'createaddition:gold_rod'});
+    event.remove({output: 'createaddition:electrum_rod'});
+    event.remove({output: 'createaddition:brass_rod'});
+    event.remove({output: 'createaddition:straw'});
+    event.remove({output: 'createaddition:seed_oil_bucket'});
+    event.remove({output: 'createaddition:bioethanol_bucket'});
+    event.remove({output: 'createaddition:seed_oil'});
+    event.remove({output: 'createaddition:bioethanol'});
+
 })
