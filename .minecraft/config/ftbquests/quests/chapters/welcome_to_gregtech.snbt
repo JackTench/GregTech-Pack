@@ -393,6 +393,22 @@
 			x: -1.0d
 			y: 3.0d
 		}
+		{
+			dependencies: ["2405FBDD28DB0338"]
+			id: "484A9A88ADDCD4A4"
+			rewards: [{
+				id: "084ABD286750B201"
+				item: "corn_delight:corn"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E6A4CA0BEB59275"
+				item: "gtceu:rubber_sapling"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
 	]
 	title: "Welcome to GregTech"
 }

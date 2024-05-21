@@ -132,18 +132,18 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "79D94D60828AD102"
+				id: "4DA10A6DE905D4FD"
 				item: {
 					Count: 1b
-					id: "gtceu:iron_saw"
+					id: "gtceu:iron_crowbar"
 					tag: {
 						DisallowContainerItem: 0b
-						GT.Behaviours: {
-							HarvestIce: 1b
-						}
+						GT.Behaviours: { }
 						GT.Tool: {
 							Damage: 0
+							HarvestLevel: 2
 							MaxDamage: 255
+							ToolSpeed: 6.0f
 						}
 						HideFlags: 2
 					}
@@ -301,7 +301,7 @@
 		}
 		{
 			dependencies: ["67A20312A0F86C52"]
-			description: ["Creosote is a byproduct generated from the Coke Oven."]
+			description: ["Used to treat wood, Creosote is a byproduct generated from the Coke Oven."]
 			id: "35DFE38F223E0185"
 			rewards: [
 				{
@@ -349,6 +349,50 @@
 				}
 			]
 			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["67A20312A0F86C52"]
+			icon: "ulvcovm:ulv_conveyor_module"
+			id: "66ADA407F2745E4E"
+			optional: true
+			tasks: [
+				{
+					id: "0DD09DF2560F782B"
+					item: "ulvcovm:ulv_conveyor_module"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6138F86D3BA71E4D"
+					item: { Count: 8b, id: "gtceu:tin_small_item_pipe" }
+					type: "item"
+				}
+			]
+			title: "Early Automation"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["27D0076248CC5819"]
+			icon: "ulvcovm:ulv_electric_pump"
+			id: "16DCB7B1670B03CB"
+			optional: true
+			tasks: [
+				{
+					id: "47BF73C8EADCE5B6"
+					item: "ulvcovm:ulv_electric_pump"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6CAD9B1891592EB3"
+					item: { Count: 8b, id: "gtceu:wood_small_fluid_pipe" }
+					type: "item"
+				}
+			]
+			title: "Early Fluid Automation"
+			x: 3.0d
 			y: 3.5d
 		}
 	]
