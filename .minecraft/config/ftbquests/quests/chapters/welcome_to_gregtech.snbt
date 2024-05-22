@@ -271,7 +271,7 @@
 						value: "minecraft:logs"
 					}
 				}
-				title: "Logs"
+				title: "32x Logs"
 				type: "item"
 			}]
 			title: "Getting Wood"

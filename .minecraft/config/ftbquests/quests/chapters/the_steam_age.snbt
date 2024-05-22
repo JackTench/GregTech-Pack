@@ -204,6 +204,7 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["7826D7E682E71F0E"]
 			id: "1E105E1DD43AA2DD"
 			shape: "square"
 			tasks: [{
@@ -214,6 +215,91 @@
 			}]
 			x: 3.0d
 			y: 6.5d
+		}
+		{
+			dependencies: [
+				"1E105E1DD43AA2DD"
+				"11EBF21294CFB7D1"
+			]
+			icon: "minecraft:obsidian"
+			id: "7447F2C45B5F3F73"
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					id: "59B10ABFDF2E1B28"
+					title: "The Nether"
+					type: "dimension"
+				}
+				{
+					count: 10L
+					id: "46B199BA9DDB8764"
+					item: { Count: 10b, id: "minecraft:obsidian" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1E105E1DD43AA2DD"]
+			id: "11EBF21294CFB7D1"
+			tasks: [{
+				id: "006B904C5DC9B2FE"
+				item: {
+					Count: 1b
+					id: "gtceu:steel_pickaxe"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 3
+							MaxDamage: 511
+							ToolSpeed: 9.0f
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7447F2C45B5F3F73"]
+			id: "518C5F5AF7E22BED"
+			tasks: [{
+				id: "66D977ECEE311690"
+				item: "gtceu:sulfur_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["44BEB16B25F4E1E5"]
+			id: "604F72140A348FAD"
+			tasks: [{
+				id: "1E69BF0451412E23"
+				item: "gtceu:lp_steam_extractor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"518C5F5AF7E22BED"
+				"604F72140A348FAD"
+			]
+			id: "3AB85ADCC06A896C"
+			tasks: [{
+				id: "1261E04BC1BA5D00"
+				item: "gtceu:rubber_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
 		}
 	]
 	title: "The Steam Age"
