@@ -428,17 +428,6 @@
 			x: 0.0d
 			y: 4.5d
 		}
-		{
-			id: "713C2BEF6F3B6898"
-			tasks: [{
-				count: 16L
-				id: "46FCBD324E69D472"
-				item: { Count: 16b, id: "gtceu:bronze_ingot" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 4.5d
-		}
 	]
 	title: "Getting Started"
 }

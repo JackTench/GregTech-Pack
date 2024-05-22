@@ -1,0 +1,69 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_steam_age"
+	group: "209417E4671A5BBF"
+	id: "1BA40AF440449650"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5603D885F3B6566B"]
+			id: "06CB25D9A8747C97"
+			shape: "square"
+			tasks: [{
+				id: "1014627D0ED10293"
+				title: "The Steam Age"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06CB25D9A8747C97"]
+			description: ["Mortars are used to crush up dusts before you can make machines to crush them. Craft one to crush some Tin and Copper to make Bronze."]
+			id: "3AA301059E63FACF"
+			rewards: [
+				{
+					count: 3
+					id: "75E6F9946540F72C"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "04FD50E707F2C84C"
+					item: "gtceu:tin_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5F35AEEB37E21B8B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/mortars"
+					}
+				}
+				title: "Mortar"
+				type: "item"
+			}]
+			title: "Pestle and Mortar"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3AA301059E63FACF"]
+			id: "27F0526300974DA7"
+			tasks: [{
+				count: 64L
+				id: "40535619BC7D4DDC"
+				item: { Count: 64b, id: "gtceu:bronze_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	title: "The Steam Age"
+}

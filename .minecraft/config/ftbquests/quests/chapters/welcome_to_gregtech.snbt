@@ -253,6 +253,7 @@
 		{
 			dependencies: ["2ABABA220808FE11"]
 			description: ["Wood works a little differently in GregTech. Right now you can only make 2 planks per log, and 1 stick per plank. Eventually, this will change, but for now. Collect as much wood as possible."]
+			icon: "minecraft:oak_log"
 			id: "2405FBDD28DB0338"
 			rewards: [{
 				count: 4
@@ -262,9 +263,15 @@
 			}]
 			subtitle: "Collect 32 logs."
 			tasks: [{
-				count: 32L
 				id: "03401C7B6F68A6EF"
-				item: { Count: 32b, id: "minecraft:oak_log" }
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Logs"
 				type: "item"
 			}]
 			title: "Getting Wood"
@@ -401,11 +408,18 @@
 				item: "corn_delight:corn"
 				type: "item"
 			}]
-			tasks: [{
-				id: "2E6A4CA0BEB59275"
-				item: "gtceu:rubber_sapling"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2E6A4CA0BEB59275"
+					item: "gtceu:rubber_sapling"
+					type: "item"
+				}
+				{
+					id: "71292E34F1C3CA03"
+					item: "gtceu:sticky_resin"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: 1.0d
 		}
