@@ -246,6 +246,7 @@
 			description: ["The coke oven is used to create Charcoal and Coal Coke, more efficient fuels."]
 			icon: "gtceu:coke_oven"
 			id: "67A20312A0F86C52"
+			shape: "square"
 			subtitle: "Making Better Fuels"
 			tasks: [
 				{
@@ -273,6 +274,7 @@
 			dependencies: ["7F80BB175A957871"]
 			hide_dependency_lines: true
 			id: "7BD528331C05ED34"
+			optional: true
 			tasks: [{
 				id: "5E2A17A66140E398"
 				item: {
@@ -291,6 +293,7 @@
 			dependencies: ["7F80BB175A957871"]
 			hide_dependency_lines: true
 			id: "438245D56F1AAF93"
+			optional: true
 			tasks: [{
 				id: "10491267DB56C903"
 				item: "sophisticatedbackpacks:backpack"
@@ -400,6 +403,7 @@
 			description: ["You'll need to pump water to heat it and make steam. Your first machines will be powered by steam."]
 			icon: "gtceu:primitive_pump"
 			id: "5603D885F3B6566B"
+			shape: "square"
 			tasks: [
 				{
 					id: "1D311AF2BD674872"
@@ -427,6 +431,28 @@
 			title: "Primitive Water Pump"
 			x: 0.0d
 			y: 4.5d
+		}
+		{
+			dependencies: ["7F80BB175A957871"]
+			hide_dependency_lines: true
+			id: "1F6949A628D78096"
+			optional: true
+			tasks: [{
+				icon: "storagedrawers:oak_full_drawers_1"
+				id: "2C130A4E1A86758E"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+				title: "Storage Drawer"
+				type: "item"
+			}]
+			title: "Storage Drawers"
+			x: -1.0d
+			y: 2.0d
 		}
 	]
 	title: "Getting Started"

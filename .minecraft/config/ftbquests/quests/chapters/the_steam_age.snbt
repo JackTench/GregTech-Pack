@@ -37,6 +37,19 @@
 				}
 			]
 			tasks: [{
+				icon: {
+					Count: 1b
+					id: "gtceu:iron_mortar"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							MaxDamage: 255
+						}
+						HideFlags: 2
+					}
+				}
 				id: "5F35AEEB37E21B8B"
 				item: {
 					Count: 1b
@@ -55,6 +68,23 @@
 		{
 			dependencies: ["3AA301059E63FACF"]
 			id: "27F0526300974DA7"
+			rewards: [{
+				id: "0BC8DC7908B84C7B"
+				item: {
+					Count: 1b
+					id: "gtceu:steel_mortar"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							MaxDamage: 511
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 64L
 				id: "40535619BC7D4DDC"
@@ -63,6 +93,127 @@
 			}]
 			x: 0.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["27F0526300974DA7"]
+			id: "44BEB16B25F4E1E5"
+			shape: "square"
+			tasks: [{
+				id: "1C9EE14D549D737E"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			title: "Making Steam"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["44BEB16B25F4E1E5"]
+			id: "09036775104A2AB9"
+			subtitle: "Making Cheaper Plates"
+			tasks: [{
+				id: "7EAA93D94617483E"
+				item: "gtceu:lp_steam_forge_hammer"
+				type: "item"
+			}]
+			title: "Forge Hammer"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["44BEB16B25F4E1E5"]
+			description: ["Wooden pipes can not support the high temperature of steam. Make some copper (or bronze) pipes to transport steam around your base."]
+			id: "010520A45F6D7974"
+			optional: true
+			tasks: [{
+				count: 32L
+				id: "7FBBCAF897B2E21B"
+				item: { Count: 32b, id: "gtceu:copper_normal_fluid_pipe" }
+				type: "item"
+			}]
+			title: "Transporting Steam"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["44BEB16B25F4E1E5"]
+			id: "18FE9C29AAF7A008"
+			tasks: [{
+				id: "55633F6CAA618F0A"
+				item: "gtceu:lp_steam_compressor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["44BEB16B25F4E1E5"]
+			id: "5E2E21CB558D6C00"
+			tasks: [{
+				id: "3AF51B707A012812"
+				item: "gtceu:lp_steam_macerator"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5E2E21CB558D6C00"]
+			id: "5490A8042E017085"
+			tasks: [{
+				id: "74C8907B24E57729"
+				item: "gtceu:concrete_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5E2E21CB558D6C00"]
+			id: "3E3344C4C1C3520E"
+			tasks: [{
+				id: "3ABBD162E0F2D542"
+				item: "gtceu:fireclay_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"5490A8042E017085"
+				"3E3344C4C1C3520E"
+				"18FE9C29AAF7A008"
+			]
+			id: "7826D7E682E71F0E"
+			shape: "square"
+			tasks: [
+				{
+					id: "58FAFBF8E720F493"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "3C1C908AC08D74BA"
+					item: { Count: 32b, id: "gtceu:firebricks" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			id: "1E105E1DD43AA2DD"
+			shape: "square"
+			tasks: [{
+				count: 8L
+				id: "0A8DC11F1E9D4EB3"
+				item: { Count: 8b, id: "gtceu:steel_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
 		}
 	]
 	title: "The Steam Age"
