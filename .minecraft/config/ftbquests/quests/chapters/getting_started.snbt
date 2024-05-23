@@ -454,6 +454,19 @@
 			x: -1.0d
 			y: 2.0d
 		}
+		{
+			dependencies: ["67A20312A0F86C52"]
+			id: "36992AAE2329631E"
+			optional: true
+			tasks: [{
+				count: 64L
+				id: "436F30ACB7575B01"
+				item: { Count: 64b, id: "gtceu:coke_gem" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
 	]
 	title: "Getting Started"
 }

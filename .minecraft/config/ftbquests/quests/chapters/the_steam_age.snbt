@@ -118,7 +118,7 @@
 			}]
 			title: "Forge Hammer"
 			x: -1.0d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["44BEB16B25F4E1E5"]
@@ -143,7 +143,7 @@
 				item: "gtceu:lp_steam_compressor"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 5.0d
 			y: 4.0d
 		}
 		{
@@ -154,8 +154,8 @@
 				item: "gtceu:lp_steam_macerator"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 5.0d
+			x: 2.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["5E2E21CB558D6C00"]
@@ -165,8 +165,8 @@
 				item: "gtceu:concrete_bucket"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 4.5d
+			x: 3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5E2E21CB558D6C00"]
@@ -176,8 +176,8 @@
 				item: "gtceu:fireclay_dust"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 5.5d
+			x: 3.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -200,7 +200,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 5.0d
 			y: 5.5d
 		}
 		{
@@ -213,8 +213,8 @@
 				item: { Count: 8b, id: "gtceu:steel_ingot" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 6.5d
+			x: 5.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -263,7 +263,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 7.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["7447F2C45B5F3F73"]
@@ -273,7 +273,7 @@
 				item: "gtceu:sulfur_dust"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: 7.5d
 		}
 		{
@@ -284,13 +284,14 @@
 				item: "gtceu:lp_steam_extractor"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 6.5d
+			x: 0.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
 				"518C5F5AF7E22BED"
 				"604F72140A348FAD"
+				"0E870D5C5B7215BC"
 			]
 			id: "3AB85ADCC06A896C"
 			tasks: [{
@@ -300,6 +301,91 @@
 			}]
 			x: 0.0d
 			y: 7.5d
+		}
+		{
+			dependencies: ["44BEB16B25F4E1E5"]
+			id: "0E870D5C5B7215BC"
+			tasks: [{
+				id: "6DA2E89876DD3F16"
+				item: "gtceu:lp_steam_alloy_smelter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1E105E1DD43AA2DD"]
+			id: "0A94E21311E8F092"
+			tasks: [
+				{
+					id: "2F7BCE16AF7A1292"
+					item: "gtceu:steel_multiblock_tank"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6711CFB90282713E"
+					item: { Count: 2b, id: "gtceu:steel_tank_valve" }
+					type: "item"
+				}
+				{
+					count: 23L
+					id: "31F6133BD5DB8DE7"
+					item: { Count: 23b, id: "gtceu:solid_machine_casing" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0E870D5C5B7215BC"]
+			id: "02945D9653E92BDF"
+			tasks: [{
+				count: 8L
+				id: "30DDADD41183E3C9"
+				item: { Count: 8b, id: "gtceu:red_alloy_ingot" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["02945D9653E92BDF"]
+			id: "04FF20F1D7E58D1F"
+			tasks: [{
+				count: 12L
+				id: "5BD00D6A94F39735"
+				item: { Count: 12b, id: "morered:red_alloy_wire" }
+				type: "item"
+			}]
+			title: "Better Redstone"
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0E870D5C5B7215BC"]
+			id: "429600F48C3D7F54"
+			shape: "square"
+			tasks: [{
+				id: "589CDB21C1000D9E"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0E870D5C5B7215BC"]
+			id: "34258BC9AAB4C6A3"
+			shape: "square"
+			tasks: [{
+				id: "3B3ECC430BDAECA2"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.5d
 		}
 	]
 	title: "The Steam Age"

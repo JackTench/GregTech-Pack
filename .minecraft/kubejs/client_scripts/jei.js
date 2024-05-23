@@ -115,6 +115,10 @@ JEIEvents.hideItems(event => {
     event.hide('createaddition:bioethanol_bucket');
     event.hide('createaddition:seed_oil');
     event.hide('createaddition:bioethanol');
+    
+    // Things disabled in other files.
+
+    event.hide('morered:red_alloy_ingot');
 
 })
 
