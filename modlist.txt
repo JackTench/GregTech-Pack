@@ -58,6 +58,7 @@ arseng-1.1.5.jar
 twilightforest-1.20.1-4.3.2145-universal.jar
 FarmersDelight-1.20.1-1.2.4.jar
 configured-forge-1.20.1-2.2.3.jar
+AdditionalEnchantedMiner-1.20.1-1201.0.58.jar
 balm-forge-1.20.1-7.2.2.jar
 ftb-quests-forge-2001.4.2.jar
 supplementaries-1.20-2.8.11.jar
@@ -104,6 +105,7 @@ dummmmmmy-1.20-1.8.17b.jar
 alternate_current-mc1.20-1.7.0.jar
 YungsApi-1.20-Forge-4.0.5.jar
 YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar
+ScalableCatsForce-3.3.1-build-0-with-library.jar
 supermartijn642corelib-1.1.17-forge-mc1.20.1.jar
 PuzzlesLib-v8.1.19-1.20.1-Forge.jar
 curios-forge-5.9.0+1.20.1.jar
