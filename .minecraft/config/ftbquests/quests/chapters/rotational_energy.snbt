@@ -1,0 +1,37 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rotational_energy"
+	group: "4DAAFA460D662A34"
+	id: "7EAB7C193FEFC6A1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["49F6FC6A46E12CDE"]
+			id: "777ED4CDF219C252"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "3E9A6BB0B401CA2F"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["429600F48C3D7F54"]
+			id: "49F6FC6A46E12CDE"
+			tasks: [{
+				count: 8L
+				id: "3B46E0C1F62CD5CF"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	title: "Rotational Energy"
+}

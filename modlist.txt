@@ -57,6 +57,7 @@ CBMultipart-1.20.1-3.3.0.146-universal.jar
 arseng-1.1.5.jar
 twilightforest-1.20.1-4.3.2145-universal.jar
 FarmersDelight-1.20.1-1.2.4.jar
+trainperspectivefix-1.0.0-universal.jar
 configured-forge-1.20.1-2.2.3.jar
 AdditionalEnchantedMiner-1.20.1-1201.0.58.jar
 balm-forge-1.20.1-7.2.2.jar

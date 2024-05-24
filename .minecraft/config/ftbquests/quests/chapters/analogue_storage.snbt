@@ -1,0 +1,42 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "analogue_storage"
+	group: "4DAAFA460D662A34"
+	id: "7805E102B73E23C2"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5206B49544E9490D"
+			tasks: [{
+				id: "5C0720CF8D448032"
+				item: "ironchest:gold_chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "295AE7AAF644383D"
+			tasks: [{
+				id: "2FC8F3A78DF1D5D8"
+				item: "ironchest:diamond_chest"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "766F569F1B5594AE"
+			tasks: [{
+				id: "1020517C7CA8B455"
+				item: "ironchest:crystal_chest"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "Analogue Storage"
+}

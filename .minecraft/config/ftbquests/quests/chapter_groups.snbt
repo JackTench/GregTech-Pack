@@ -1,3 +1,6 @@
 {
-	chapter_groups: [{ id: "209417E4671A5BBF", title: "Main Quests" }]
+	chapter_groups: [
+		{ id: "209417E4671A5BBF", title: "Main Quests" }
+		{ id: "4DAAFA460D662A34", title: "Side Quests" }
+	]
 }
