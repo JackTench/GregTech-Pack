@@ -1,0 +1,95 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mmm_food"
+	group: "4DAAFA460D662A34"
+	id: "2230B0160B8E8B54"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"2B504FFB73B2BD89"
+				"32C4EFFE2FEB698B"
+				"0A0A06076C46E2CE"
+			]
+			id: "46440E942E7601F0"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "268D7B6E492B4928"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6C498C8D9F453E79"
+			tasks: [{
+				count: 8L
+				id: "0A8F00F89922592C"
+				item: { Count: 8b, id: "minecraft:wheat" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "3605357C4B6980A9"
+			tasks: [{
+				count: 8L
+				id: "7E1CAF7CECD2CA0F"
+				item: { Count: 8b, id: "minecraft:beetroot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "1354097685167EC7"
+			tasks: [{
+				count: 8L
+				id: "2D82371BE277AF5E"
+				item: { Count: 8b, id: "minecraft:potato" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			id: "1B2C258122F4BEDB"
+			tasks: [{
+				count: 8L
+				id: "5F4028C3D461D35A"
+				item: { Count: 8b, id: "minecraft:carrot" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			id: "6B6D5C378176B05E"
+			tasks: [{
+				count: 8L
+				id: "6B8AFBDB0A650C32"
+				item: { Count: 8b, id: "farmersdelight:cabbage" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "78210E23174A95CD"
+			tasks: [{
+				count: 8L
+				id: "7C7AE66436F193D1"
+				item: { Count: 8b, id: "farmersdelight:tomato" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+	]
+	title: "Mmm... Food"
+}
