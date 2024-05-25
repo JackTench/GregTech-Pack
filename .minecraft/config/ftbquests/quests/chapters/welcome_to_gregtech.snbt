@@ -49,7 +49,7 @@
 		{
 			dependencies: ["636698901640CD4A"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "gtceu:flint_pickaxe"
 				tag: {
 					DisallowContainerItem: 0b
@@ -75,7 +75,7 @@
 				{
 					id: "7EE6CDA466FAD862"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:flint_pickaxe"
 						tag: {
 							DisallowContainerItem: 0b
@@ -94,7 +94,7 @@
 				{
 					id: "74D20C2BE0AD7FFA"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:flint_shovel"
 						tag: {
 							DisallowContainerItem: 0b
@@ -113,7 +113,7 @@
 				{
 					id: "4C1C7DA3FA8F05E6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:flint_axe"
 						tag: {
 							DisallowContainerItem: 0b
@@ -135,7 +135,7 @@
 				{
 					id: "6BCBAFC87D359A0C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:flint_knife"
 						tag: {
 							DisallowContainerItem: 0b
@@ -265,7 +265,7 @@
 			tasks: [{
 				id: "03401C7B6F68A6EF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "minecraft:logs"
@@ -324,7 +324,7 @@
 			tasks: [{
 				id: "6342E5C9EAB20299"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:iron_hammer"
 					tag: {
 						DisallowContainerItem: 0b
@@ -357,7 +357,7 @@
 				{
 					id: "363D35C1DA53E16D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "comforts:sleeping_bags"

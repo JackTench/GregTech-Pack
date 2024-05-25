@@ -119,6 +119,7 @@ JEIEvents.hideItems(event => {
     // Things disabled in other files.
 
     event.hide('morered:red_alloy_ingot');
+    event.hide('translocators:diamond_nugget');
 
 })
 

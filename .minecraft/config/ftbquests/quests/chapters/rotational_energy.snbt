@@ -32,6 +32,26 @@
 			x: 0.0d
 			y: -1.5d
 		}
+		{
+			id: "205408DC597B5CA0"
+			tasks: [{
+				id: "6F54B5BA941D38A0"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			id: "44750FAF5413CFF3"
+			tasks: [{
+				id: "27751157D1A23FD5"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
 	]
 	title: "Rotational Energy"
 }

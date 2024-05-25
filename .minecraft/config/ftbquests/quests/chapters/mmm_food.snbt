@@ -29,10 +29,10 @@
 			tasks: [{
 				count: 8L
 				id: "0A8F00F89922592C"
-				item: { Count: 8b, id: "minecraft:wheat" }
+				item: { Count: 8, id: "minecraft:wheat" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.5d
 			y: -1.5d
 		}
 		{
@@ -40,21 +40,21 @@
 			tasks: [{
 				count: 8L
 				id: "7E1CAF7CECD2CA0F"
-				item: { Count: 8b, id: "minecraft:beetroot" }
+				item: { Count: 8, id: "minecraft:beetroot" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.5d
+			x: -0.5d
+			y: -1.5d
 		}
 		{
 			id: "1354097685167EC7"
 			tasks: [{
 				count: 8L
 				id: "2D82371BE277AF5E"
-				item: { Count: 8b, id: "minecraft:potato" }
+				item: { Count: 8, id: "minecraft:potato" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: -1.5d
 		}
 		{
@@ -62,10 +62,10 @@
 			tasks: [{
 				count: 8L
 				id: "5F4028C3D461D35A"
-				item: { Count: 8b, id: "minecraft:carrot" }
+				item: { Count: 8, id: "minecraft:carrot" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.5d
 			y: -1.5d
 		}
 		{
@@ -73,10 +73,10 @@
 			tasks: [{
 				count: 8L
 				id: "6B8AFBDB0A650C32"
-				item: { Count: 8b, id: "farmersdelight:cabbage" }
+				item: { Count: 8, id: "farmersdelight:cabbage" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: -2.5d
 		}
 		{
@@ -84,11 +84,23 @@
 			tasks: [{
 				count: 8L
 				id: "7C7AE66436F193D1"
-				item: { Count: 8b, id: "farmersdelight:tomato" }
+				item: { Count: 8, id: "farmersdelight:tomato" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: -2.5d
+		}
+		{
+			id: "24637B1B51996863"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "5917B9F005E1CD07"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
 		}
 	]
 	title: "Mmm... Food"

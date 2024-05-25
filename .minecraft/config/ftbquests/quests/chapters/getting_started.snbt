@@ -4,7 +4,7 @@
 	filename: "getting_started"
 	group: "209417E4671A5BBF"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "gtceu:iron_hammer"
 		tag: {
 			DisallowContainerItem: 0b
@@ -45,7 +45,7 @@
 			tasks: [{
 				id: "019EF5D4C2816900"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:iron_file"
 					tag: {
 						DisallowContainerItem: 0b
@@ -74,7 +74,7 @@
 			tasks: [{
 				id: "22A077A24F627B44"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:iron_saw"
 					tag: {
 						DisallowContainerItem: 0b
@@ -105,7 +105,7 @@
 			tasks: [{
 				id: "0F5EAB6F8856521A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:iron_screwdriver"
 					tag: {
 						DisallowContainerItem: 0b
@@ -134,7 +134,7 @@
 			tasks: [{
 				id: "4DA10A6DE905D4FD"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:iron_crowbar"
 					tag: {
 						DisallowContainerItem: 0b
@@ -165,7 +165,7 @@
 			tasks: [{
 				id: "5F2B9AD8C1B61B1B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:iron_wrench"
 					tag: {
 						DisallowContainerItem: 0b
@@ -278,7 +278,7 @@
 			tasks: [{
 				id: "5E2A17A66140E398"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hangglider:hang_glider"
 					tag: {
 						Damage: 0
@@ -341,13 +341,13 @@
 				{
 					count: 2L
 					id: "70DC6B762EC8F576"
-					item: { Count: 2b, id: "gtceu:wooden_tank_valve" }
+					item: { Count: 2, id: "gtceu:wooden_tank_valve" }
 					type: "item"
 				}
 				{
 					count: 23L
 					id: "480EFD698B273A6C"
-					item: { Count: 23b, id: "gtceu:wood_wall" }
+					item: { Count: 23, id: "gtceu:wood_wall" }
 					type: "item"
 				}
 			]
@@ -368,7 +368,7 @@
 				{
 					count: 8L
 					id: "6138F86D3BA71E4D"
-					item: { Count: 8b, id: "gtceu:tin_small_item_pipe" }
+					item: { Count: 8, id: "gtceu:tin_small_item_pipe" }
 					type: "item"
 				}
 			]
@@ -390,7 +390,7 @@
 				{
 					count: 8L
 					id: "6CAD9B1891592EB3"
-					item: { Count: 8b, id: "gtceu:wood_small_fluid_pipe" }
+					item: { Count: 8, id: "gtceu:wood_small_fluid_pipe" }
 					type: "item"
 				}
 			]
@@ -418,13 +418,13 @@
 				{
 					count: 10L
 					id: "4B3EEE84617EAF73"
-					item: { Count: 10b, id: "gtceu:pump_deck" }
+					item: { Count: 10, id: "gtceu:pump_deck" }
 					type: "item"
 				}
 				{
 					count: 10L
 					id: "73D11537D6C30828"
-					item: { Count: 10b, id: "gtceu:treated_wood_frame" }
+					item: { Count: 10, id: "gtceu:treated_wood_frame" }
 					type: "item"
 				}
 			]
@@ -441,7 +441,7 @@
 				icon: "storagedrawers:oak_full_drawers_1"
 				id: "2C130A4E1A86758E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "storagedrawers:drawers"
@@ -461,7 +461,7 @@
 			tasks: [{
 				count: 64L
 				id: "436F30ACB7575B01"
-				item: { Count: 64b, id: "gtceu:coke_gem" }
+				item: { Count: 64, id: "gtceu:coke_gem" }
 				type: "item"
 			}]
 			x: -1.0d

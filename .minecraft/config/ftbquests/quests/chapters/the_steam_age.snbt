@@ -38,7 +38,7 @@
 			]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:iron_mortar"
 					tag: {
 						DisallowContainerItem: 0b
@@ -52,7 +52,7 @@
 				}
 				id: "5F35AEEB37E21B8B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:tools/mortars"
@@ -71,7 +71,7 @@
 			rewards: [{
 				id: "0BC8DC7908B84C7B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:steel_mortar"
 					tag: {
 						DisallowContainerItem: 0b
@@ -88,7 +88,7 @@
 			tasks: [{
 				count: 64L
 				id: "40535619BC7D4DDC"
-				item: { Count: 64b, id: "gtceu:bronze_ingot" }
+				item: { Count: 64, id: "gtceu:bronze_ingot" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -128,7 +128,7 @@
 			tasks: [{
 				count: 32L
 				id: "7FBBCAF897B2E21B"
-				item: { Count: 32b, id: "gtceu:copper_normal_fluid_pipe" }
+				item: { Count: 32, id: "gtceu:copper_normal_fluid_pipe" }
 				type: "item"
 			}]
 			title: "Transporting Steam"
@@ -196,7 +196,7 @@
 				{
 					count: 32L
 					id: "3C1C908AC08D74BA"
-					item: { Count: 32b, id: "gtceu:firebricks" }
+					item: { Count: 32, id: "gtceu:firebricks" }
 					type: "item"
 				}
 			]
@@ -210,7 +210,7 @@
 			tasks: [{
 				count: 8L
 				id: "0A8DC11F1E9D4EB3"
-				item: { Count: 8b, id: "gtceu:steel_ingot" }
+				item: { Count: 8, id: "gtceu:steel_ingot" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -233,7 +233,7 @@
 				{
 					count: 10L
 					id: "46B199BA9DDB8764"
-					item: { Count: 10b, id: "minecraft:obsidian" }
+					item: { Count: 10, id: "minecraft:obsidian" }
 					type: "item"
 				}
 			]
@@ -246,7 +246,7 @@
 			tasks: [{
 				id: "006B904C5DC9B2FE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:steel_pickaxe"
 					tag: {
 						DisallowContainerItem: 0b
@@ -325,13 +325,13 @@
 				{
 					count: 2L
 					id: "6711CFB90282713E"
-					item: { Count: 2b, id: "gtceu:steel_tank_valve" }
+					item: { Count: 2, id: "gtceu:steel_tank_valve" }
 					type: "item"
 				}
 				{
 					count: 23L
 					id: "31F6133BD5DB8DE7"
-					item: { Count: 23b, id: "gtceu:solid_machine_casing" }
+					item: { Count: 23, id: "gtceu:solid_machine_casing" }
 					type: "item"
 				}
 			]
@@ -344,7 +344,7 @@
 			tasks: [{
 				count: 8L
 				id: "30DDADD41183E3C9"
-				item: { Count: 8b, id: "gtceu:red_alloy_ingot" }
+				item: { Count: 8, id: "gtceu:red_alloy_ingot" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -356,7 +356,7 @@
 			tasks: [{
 				count: 12L
 				id: "5BD00D6A94F39735"
-				item: { Count: 12b, id: "morered:red_alloy_wire" }
+				item: { Count: 12, id: "morered:red_alloy_wire" }
 				type: "item"
 			}]
 			title: "Better Redstone"
@@ -386,6 +386,19 @@
 			}]
 			x: -2.0d
 			y: 6.5d
+		}
+		{
+			dependencies: ["1E105E1DD43AA2DD"]
+			id: "1AD62FB8E4ED7383"
+			subtitle: "Short distance, high speed."
+			tasks: [{
+				count: 2L
+				id: "364C8DEE95FB7DEF"
+				item: { Count: 2, id: "translocators:item_translocator" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.5d
 		}
 	]
 	title: "The Steam Age"
