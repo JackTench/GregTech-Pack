@@ -46,6 +46,7 @@ JadeAddons-1.20.1-forge-5.2.2.jar
 Botania-1.20.1-444-FORGE.jar
 kubejsarsnouveau-1.2.2.jar
 ensorcellation-1.20.1-5.0.0.21.jar
+oculus-flywheel-compat-1.20.1-0.2.5.jar
 YungsBetterEndIsland-1.20-Forge-2.0.6.jar
 corn_delight-1.0.4-1.20.1.jar
 storagedrawers-1.20.1-12.0.3.jar
@@ -58,6 +59,7 @@ twilightforest-1.20.1-4.3.2145-universal.jar
 FarmersDelight-1.20.1-1.2.4.jar
 trainperspectivefix-1.0.0-universal.jar
 configured-forge-1.20.1-2.2.3.jar
+oculus-mc1.20.1-1.7.0.jar
 AdditionalEnchantedMiner-1.20.1-1201.0.58.jar
 balm-forge-1.20.1-7.2.2.jar
 supplementaries-1.20-2.8.11.jar
