@@ -397,6 +397,7 @@
 				item: { Count: 2, id: "translocators:item_translocator" }
 				type: "item"
 			}]
+			title: "Translocators"
 			x: 6.0d
 			y: 7.5d
 		}
