@@ -39,3 +39,4 @@ instance.cfg
 mmc-pack.json
 .minecraft/config/roughlyenoughitems/pinyin_double.properties
 .minecraft/config/roughlyenoughitems/pinyin.properties
+.minecraft/config/oculus.properties
